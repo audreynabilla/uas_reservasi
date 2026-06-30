@@ -16,7 +16,7 @@ function e(?string $value): string
 
 function baseUrl(string $path = ''): string
 {
-    return '/pwl_uas/public/' . ltrim($path, '/');
+    return '/uas_reservasi/public/' . ltrim($path, '/');
 }
 
 function redirect(string $url): void
